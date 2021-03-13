@@ -7,8 +7,8 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/azouaoui-med/react-pro-sidebar.git",
-  "author": "Mohamed Azouaoui <azouaoui.med@gmail.com>",
+  "repository": "https://github.com/icomad/react-pro-sidebar.git",
+  "author": "Federico Madaffari <icomadd@me.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
