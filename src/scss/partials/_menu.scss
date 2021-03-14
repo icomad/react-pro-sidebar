@@ -91,13 +91,13 @@
           line-height: $icon-size;
           text-align: center;
           display: inline-block;
+          border: $icon-border;
 
           .pro-icon {
             display: flex;
             height: 100%;
             align-items: center;
             justify-content: center;
-            border: $icon-border;
           }
         }
 
@@ -111,8 +111,8 @@
         &:hover {
           color: $highlight-color;
           .pro-icon-wrapper {
+            border-color: $highlight-color;
             .pro-icon {
-              border-color: $highlight-color;
               animation: swing ease-in-out 0.5s 1 alternate;
             }
           }
