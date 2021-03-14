@@ -97,6 +97,7 @@
             height: 100%;
             align-items: center;
             justify-content: center;
+            border: $icon-border;
           }
         }
 
@@ -111,6 +112,7 @@
           color: $highlight-color;
           .pro-icon-wrapper {
             .pro-icon {
+              border-color: $highlight-color;
               animation: swing ease-in-out 0.5s 1 alternate;
             }
           }
