@@ -91,6 +91,7 @@
           line-height: $icon-size;
           text-align: center;
           display: inline-block;
+          border: $icon-border;
 
           .pro-icon {
             display: flex;
@@ -110,6 +111,7 @@
         &:hover {
           color: $highlight-color;
           .pro-icon-wrapper {
+            border-color: $highlight-color;
             .pro-icon {
               animation: swing ease-in-out 0.5s 1 alternate;
             }
